@@ -109,7 +109,7 @@
         margin-top: 24px;
     }
 
-    span.title {
+    .title {
         font-size: 34px;
     }
     .swiper-slide-cont span.name {
@@ -276,6 +276,10 @@
     .navbar .right-item {
         flex-direction: column;
     }
+    .navbar .right-item .all-btn {
+        padding: 10px 18px;
+        font-size: 13px;
+    }
     .header-divider {
         display: none;
     }
@@ -336,7 +340,7 @@
     .promo-bottom .promo-cont {
         left: 55px;
     }
-    .promo-bottom .promo-cont span.title {
+    .promo-bottom .promo-cont .title {
         margin-bottom: 15px;
     }
     .promo.promo-bottom .button-row {
@@ -348,8 +352,8 @@
     .promo-info-item {
         width: 100%;
     }
-    .promo-bottom .promo-cont span.title,
-    .promo-bottom .promo-cont span.title span {
+    .promo-bottom .promo-cont .title,
+    .promo-bottom .promo-cont .title span {
         font-size: 26px;
     }
     .navbar ul {
@@ -388,6 +392,14 @@
     }
     .expo-options {
         padding: 24px;
+    }
+    .expo-miro-btn {
+        width: 100%;
+        white-space: normal;
+        text-align: center;
+        font-size: 15px;
+        line-height: 22px;
+        padding: 16px 20px;
     }
     .expo-options-grid {
         flex-direction: column;
@@ -635,9 +647,19 @@
 }
 
 @media only screen and (max-width: 480px){
+    header .flex a.logo-header img {
+        width: 88px;
+        height: 46px;
+    }
     .block-mob .all-btn {
-        padding: 9px 14px;
-        font-size: 12px;
+        padding: 12px 14px;
+        font-size: 13px;
+        white-space: normal;
+        text-align: center;
+    }
+    .navbar .right-item .all-btn {
+        padding: 12px 14px;
+        font-size: 13px;
     }
     .promo-bottom .promo-cont {
         top: 10%;
@@ -740,6 +762,9 @@
     #promo .promo-orgs-logo img {
         height: 26px;
     }
+    #promo .promo-orgs-logo img[alt="Protez Academy"] {
+        height: 30.47px;
+    }
     .title.about-title {
         font-size: 30px;
     }
@@ -805,7 +830,7 @@
     div#about{
         padding: 60px 0 40px;
     }
-    span.title {
+    .title {
         font-size: 30px;
     }
     .about p {
@@ -923,8 +948,10 @@
         display: none;
     }
     .block-mob .all-btn {
-        font-size: 14px;
-        padding: 13px 14px;
+        font-size: 13px;
+        padding: 12px 14px;
+        white-space: normal;
+        text-align: center;
     }
     .logo-footer .all-btn {
         font-size: 14px;
@@ -1056,6 +1083,10 @@
         gap: 8px;
     }
     .header-bottom .flex a {
+        font-size: 12px;
+        padding: 11px 10px;
+    }
+    .block-mob .all-btn {
         font-size: 12px;
         padding: 11px 10px;
     }

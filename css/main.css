@@ -188,7 +188,7 @@ header {
 }
 
 header.is-scrolled {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.85);
   border-bottom: 1px solid #bbe2ff;
   box-shadow: 0px 4px 20px 0px rgba(17, 17, 17, 0.04);
 }
@@ -2395,7 +2395,7 @@ a.all-btn:hover img {
   display: block;
   color: #111;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.6;
   font-weight: 400;
   max-width: 560px;
   margin: 0 auto 36px;
@@ -2596,9 +2596,14 @@ a.all-btn:hover img {
 
 /* Protez Academy wordmark renders smaller than Protez Foundation at the
    same box height (its viewBox includes the graduation-cap glyph above
-   the letters), so it needs a slightly taller box to match cap-height. */
+   the letters), so it needs a slightly taller box to match cap-height.
+   The cap glyph sits above the wordmark, so centering the taller box
+   shifts the actual letters lower than Protez Foundation's text - nudge
+   it back up so both wordmarks sit on the same visual line, letting the
+   cap float a bit higher above the row. */
 #promo .promo-orgs-logo img[alt="Protez Academy"] {
   height: 37.5px;
+  transform: translateY(-3.3px);
 }
 
 /*SUMMIT NAME: ALWAYS ONE LINE*/
