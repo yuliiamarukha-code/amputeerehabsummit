@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Onest';
+    src: local('Onest Bold'), local('Onest-Bold'),
+        url('Onest-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Onest';
+    src: local('Onest Semibold'), local('Onest-SemiBold'),
+        url('Onest-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Onest';
+    src: local('Onest Regular'), local('Onest-Regular'),
+        url('Onest-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Onest';
+    src: local('Onest Light'), local('Onest-Light'),
+        url('Onest-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Onest';
+    src: local('Onest Thin'), local('Onest-Thin'),
+        url('Onest-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Onest';
+    src: local('Onest Medium'), local('Onest-Medium'),
+        url('Onest-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Onest';
+    src: local('Onest ExtraBold'), local('Onest-ExtraBold'),
+        url('Onest-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
