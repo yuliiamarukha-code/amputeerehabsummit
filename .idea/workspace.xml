@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48e89482-d262-4f65-b403-88b9cebb539e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-bg-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/about-bg-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/about-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-img-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/about-img-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/about-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/after-speakers-block.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/after-speakers-block.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arrow-btn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/arrow-btn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arrow-slider.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/arrow-slider.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/before-request-block.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/before-request-block.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/before-speakers-block.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/before-speakers-block.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/calender.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/calender.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/card1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/card1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/card2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/card2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/card3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/card3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/card4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/card4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/card5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/card5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/card6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/card6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/card7.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/card7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/footer-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hartiya-bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/hartiya-bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hartiya-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/hartiya-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hartiya.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/hartiya.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon-close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/image1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/image2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/image3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/image4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/image5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/image6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/in.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/insta.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/location.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-animate.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo-animate.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-footer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo-footer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-header.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo-header.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-new.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo-new.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/menu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mob-video.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/img/mob-video.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo10.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo11.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo11.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo12.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo13.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo14.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo15.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo17.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo18.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo18.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo19.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo19.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo20.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo20.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo21.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo22.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo22.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo7.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo8.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/partner-logo9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/partner-logo9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/people.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/people.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo-s.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/photo-s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo-summit1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/photo-summit1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/program-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/program-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promo-bottom-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-bottom-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promo-bottom-mob2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-bottom-mob2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promo-bottom-mob3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-bottom-mob3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promo-bottom-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-bottom-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promo-bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promo-poster-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-poster-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promo-poster-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-poster-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/promo-poster.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/promo-poster.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/request-partner-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/request-partner-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/request-partner.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/request-partner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-logo1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-logo1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-logo2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-logo2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-logo3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-logo3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-logo4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-logo4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s-logo5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/s-logo5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s1-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s1-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s1-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s1-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s2-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s2-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s2-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s2-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s3-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s3-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s3-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s3-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s4-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s4-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s4-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s4-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s5-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s5-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s5-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s5-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s6-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s6-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s6-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s6-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s7-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s7-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s7-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s7-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s7.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s8-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s8-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s8-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s8-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s8.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s9-mob.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s9-mob.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s9-tab.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s9-tab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/s9.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/s9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/time.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/time.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/to-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/to-top.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/og-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/og-image.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="33HYllB041tQonS0aBo7kTVyLyo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ruslansokol/Desktop/protez-summit 3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/protez-summit 3/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.115" />
+        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.115" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48e89482-d262-4f65-b403-88b9cebb539e" name="Changes" comment="" />
+      <created>1758975617861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758975617861</updated>
+      <workItem from="1758975619062" duration="2837000" />
+      <workItem from="1759321036159" duration="3771000" />
+      <workItem from="1759324906696" duration="826000" />
+      <workItem from="1759427667096" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
