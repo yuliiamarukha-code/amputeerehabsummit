@@ -278,6 +278,8 @@ button.menu-hide {
 .navbar .right-item {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  row-gap: 12px;
 }
 
 .header-divider {
@@ -287,6 +289,39 @@ button.menu-hide {
   background: #dde5ec;
   margin: 0 32px;
   flex-shrink: 0;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: #f2f6fa;
+  border-radius: 100px;
+  padding: 3px;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+
+.lang-btn {
+  border: none;
+  background: transparent;
+  color: #6b7885;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 6px 14px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.lang-btn:hover {
+  color: #2593e2;
+}
+
+.lang-btn.active {
+  background: #2593e2;
+  color: #fff;
 }
 
 .promo-img {
