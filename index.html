@@ -71,9 +71,9 @@
       type="text/css"
       href="libs/swiper-slider/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="css/animate.css?v=20260722" />
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=20260722" />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css?v=20260722" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css?v=20260729" />
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=20260729" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css?v=20260729" />
 
     <script type="application/ld+json">
       {
@@ -138,13 +138,13 @@
               <div class="right-item">
                 <ul>
                   <li>
-                    <a class="menu-hide-link" href="#promo">Головна</a>
+                    <a class="menu-hide-link" href="#promo"><span data-i18n="nav.home">Головна</span></a>
                   </li>
                   <li>
-                    <a class="menu-hide-link" href="#speakers">Спікери</a>
+                    <a class="menu-hide-link" href="#speakers"><span data-i18n="nav.speakers">Спікери</span></a>
                   </li>
                   <li>
-                    <a class="menu-hide-link" href="#program">Програма</a>
+                    <a class="menu-hide-link" href="#program"><span data-i18n="label.program">Програма</span></a>
                   </li>
                   <li>
                     <button class="menu-hide" type="button">
@@ -153,10 +153,14 @@
                   </li>
                 </ul>
                 <span class="header-divider" aria-hidden="true"></span>
+                <div class="lang-switch" role="group" aria-label="Мова сайту / Site language">
+                  <button type="button" class="lang-btn active" data-lang="uk">UA</button>
+                  <button type="button" class="lang-btn" data-lang="en">EN</button>
+                </div>
                 <a
                   class="all-btn"
                   href="#whats-new"
-                  >Заявка на участь</a
+                  ><span data-i18n="btn.register">Заявка на участь</span></a
                 >
               </div>
               <div class="mob-menu-bottom-row">
@@ -204,21 +208,21 @@
               <a
                 class="all-btn"
                 href="#whats-new"
-                >Заявка на участь</a
+                ><span data-i18n="btn.register">Заявка на участь</span></a
               >
               <button type="button" class="mob-menu-btn">
-                <img src="img/menu.svg" alt="Меню" />
+                <img src="img/menu.svg" alt="Меню" data-i18n-alt-en="Menu" />
               </button>
             </div>
           </div>
         </div>
         <div class="header-bottom">
           <div class="flex">
-            <a class="black-btn" href="#program">Програма</a>
+            <a class="black-btn" href="#program"><span data-i18n="label.program">Програма</span></a>
             <a
               class="all-btn"
               href="#whats-new"
-              >Заявка на участь</a
+              ><span data-i18n="btn.register">Заявка на участь</span></a
             >
           </div>
         </div>
@@ -232,12 +236,12 @@
       <div class="container">
         <div class="promo-cont-wrap">
           <div class="promo-badge">
-            <span class="promo-badge-text">3–5 жовтня &bull; Київ</span>
+            <span class="promo-badge-text" data-i18n="hero.badge">3–5 жовтня &bull; Київ</span>
           </div>
           <h1 class="title promo-title"
             >Amputee Rehab <span>Summit 2026</span></h1
           >
-          <p class="promo-tagline">
+          <p class="promo-tagline" data-i18n="hero.tagline">
             Саміт для фахівців з протезування, фізичної реабілітації та
             комплексного відновлення людей після ампутації.
           </p>
@@ -246,12 +250,12 @@
               <a
                 class="all-btn"
                 href="#whats-new"
-                >Заявка на участь<img loading="lazy"
+                ><span data-i18n="btn.register">Заявка на участь</span><img loading="lazy"
                   src="img/arrow-btn.svg"
                   alt=""
                   class="arrow-down"
               /></a>
-              <a class="black-btn" href="#program">Програма</a>
+              <a class="black-btn" href="#program"><span data-i18n="label.program">Програма</span></a>
             </div>
           </div>
         </div>
@@ -261,7 +265,7 @@
             <button
               type="button"
               class="promo-gallery-btn promo-gallery-prev"
-              aria-label="Попереднє фото"
+              aria-label="Попереднє фото" data-i18n-aria-en="Previous photo"
             >
               &lsaquo;
             </button>
@@ -297,7 +301,7 @@
             <button
               type="button"
               class="promo-gallery-btn promo-gallery-next"
-              aria-label="Наступне фото"
+              aria-label="Наступне фото" data-i18n-aria-en="Next photo"
             >
               &rsaquo;
             </button>
@@ -310,7 +314,7 @@
         <div class="container">
           <div class="promo-orgs-inner">
             <div class="promo-orgs-group">
-              <span class="promo-orgs-label">Організатори</span>
+              <span class="promo-orgs-label" data-i18n="orgs.organizers">Організатори</span>
               <div class="promo-orgs-logo-row">
                 <a
                   target="_blank"
@@ -330,7 +334,7 @@
             </div>
             <div class="promo-orgs-divider"></div>
             <div class="promo-orgs-group">
-              <span class="promo-orgs-label">Генеральний донор</span>
+              <span class="promo-orgs-label" data-i18n="orgs.donor">Генеральний донор</span>
               <div class="promo-orgs-logo-row">
                 <a
                   target="_blank"
@@ -364,14 +368,14 @@
             data-wow-offset="0"
           >
             <h2 class="title about-title">Amputee Rehab <span class="accent-break">Summit 2026</span></h2>
-            <p>
+            <p data-i18n="about.p1">
               Amputee Rehab Summit — це найбільша в Україні міжнародна
               освітня подія, організована Protez Foundation та Protez
               Academy, присвячена сучасному протезуванню, фізичній
               реабілітації та комплексному відновленню людей після
               ампутації.
             </p>
-            <p class="about-mission">
+            <p class="about-mission" data-i18n="about.mission">
               <strong class="about-emphasis">Мета заходу</strong> – об’єднати українських та міжнародних експертів,
               протезистів, хірургів, фізичних терапевтів, ерготерапевтів,
               медичних фахівців, представників державного сектору,
@@ -381,7 +385,7 @@
               Summit є важливою частиною системної роботи з розвитку
               галузі.
             </p>
-            <p>
+            <p data-i18n="about.p3">
               Захід проводиться четвертий рік поспіль і створює платформу
               для фахових дискусій, навчання, презентації сучасних
               підходів, обговорення складних клінічних випадків і пошуку
@@ -391,7 +395,7 @@
             <a
               class="all-btn"
               href="#whats-new"
-              >Заявка на участь <img loading="lazy" src="img/arrow-btn.svg" alt="" class="arrow-down"
+              ><span data-i18n="btn.register">Заявка на участь</span> <img loading="lazy" src="img/arrow-btn.svg" alt="" class="arrow-down"
             /></a>
           </div>
         </div>
@@ -412,8 +416,8 @@
     <div id="whats-new" class="whats-new-block">
       <div class="container">
         <div class="section-head-left">
-          <h2 class="title">Що нового <span>у 2026 році?</span></h2>
-          <p class="section-subtitle">
+          <h2 class="title" data-i18n="whatsnew.heading">Що нового <span>у 2026 році?</span></h2>
+          <p class="section-subtitle" data-i18n="whatsnew.subtitle">
             Уперше цього року буде об’єднано одразу три окремі формати в
             межах одного заходу:
           </p>
@@ -430,12 +434,12 @@
             </div>
             <div class="format-preview-cont">
               <h3 class="title-card">Amputee Rehab <span>Summit</span></h3>
-              <p class="format-preview-desc">
+              <p class="format-preview-desc" data-i18n="whatsnew.summit.desc">
                 Міжнародний науково-практичний саміт для фахівців.
               </p>
               <div class="format-preview-audience">
-                <span class="format-preview-audience-label">Для кого</span>
-                <p>
+                <span class="format-preview-audience-label" data-i18n="label.forwhom">Для кого</span>
+                <p data-i18n="whatsnew.summit.audience">
                   реєстрація відкрита для всіх фахівців, які працюють у
                   сфері протезування, реабілітації та охорони здоров’я.
                 </p>
@@ -444,7 +448,7 @@
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSesGJEw8rDfqNtQWlpgSk7OuK5cDOC2fZe2jgD-jpV7jC_UEg/viewform"
                 class="all-btn format-preview-btn"
-                >Заявка на участь<img loading="lazy" src="img/arrow-btn.svg" alt="" />
+                ><span data-i18n="btn.register">Заявка на участь</span><img loading="lazy" src="img/arrow-btn.svg" alt="" />
               </a>
             </div>
           </div>
@@ -459,14 +463,14 @@
             </div>
             <div class="format-preview-cont">
               <h3 class="title-card">Amputee Rehab <span>Student</span></h3>
-              <p class="format-preview-desc">
+              <p class="format-preview-desc" data-i18n="whatsnew.student.desc">
                 Окремий день для студентів, інтернів і молодих науковців,
                 присвячений професійному розвитку та міжнародному
                 нетворкінгу.
               </p>
               <div class="format-preview-audience">
-                <span class="format-preview-audience-label">Для кого</span>
-                <p>
+                <span class="format-preview-audience-label" data-i18n="label.forwhom">Для кого</span>
+                <p data-i18n="whatsnew.student.audience">
                   студенти, інтерни, аспіранти, молоді науковці, викладачі
                   та молоді спеціалісти.
                 </p>
@@ -475,7 +479,7 @@
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfmkJ9Ir89WsfO5TjE0fV7IHR7ZfBf4eZz28sxvrtMuZ_A7gw/viewform"
                 class="all-btn format-preview-btn"
-                >Заявка на участь<img loading="lazy" src="img/arrow-btn.svg" alt="" />
+                ><span data-i18n="btn.register">Заявка на участь</span><img loading="lazy" src="img/arrow-btn.svg" alt="" />
               </a>
             </div>
           </div>
@@ -490,13 +494,13 @@
             </div>
             <div class="format-preview-cont">
               <h3 class="title-card">Amputee Rehab <span>Expo</span></h3>
-              <p class="format-preview-desc">
+              <p class="format-preview-desc" data-i18n="whatsnew.expo.desc">
                 Масштабна виставка сучасних технологій, обладнання та
                 інноваційних рішень у сфері протезування й реабілітації.
               </p>
               <div class="format-preview-audience">
-                <span class="format-preview-audience-label">Для кого</span>
-                <p>
+                <span class="format-preview-audience-label" data-i18n="label.forwhom">Для кого</span>
+                <p data-i18n="whatsnew.expo.audience">
                   окрема реєстрація передбачена для компаній, виробників,
                   технологічних партнерів, благодійних і громадських
                   організацій, які бажають представити свої рішення на
@@ -507,7 +511,7 @@
                 target="_blank"
                 href="https://forms.gle/EgymwcL6kUtxmu236"
                 class="all-btn format-preview-btn"
-                >Заявка на участь<img loading="lazy" src="img/arrow-btn.svg" alt="" />
+                ><span data-i18n="btn.register">Заявка на участь</span><img loading="lazy" src="img/arrow-btn.svg" alt="" />
               </a>
             </div>
           </div>
@@ -523,12 +527,12 @@
                   </div>
                   <div class="format-preview-cont">
                     <h3 class="title-card">Amputee Rehab <span>Summit</span></h3>
-                    <p class="format-preview-desc">
+                    <p class="format-preview-desc" data-i18n="whatsnew.summit.desc">
                 Міжнародний науково-практичний саміт для фахівців.
               </p>
                     <div class="format-preview-audience">
-                      <span class="format-preview-audience-label">Для кого</span>
-                      <p>
+                      <span class="format-preview-audience-label" data-i18n="label.forwhom">Для кого</span>
+                      <p data-i18n="whatsnew.summit.audience">
                         реєстрація відкрита для всіх фахівців, які
                         працюють у сфері протезування, реабілітації та
                         охорони здоров’я.
@@ -538,7 +542,7 @@
                       target="_blank"
                       href="https://docs.google.com/forms/d/e/1FAIpQLSesGJEw8rDfqNtQWlpgSk7OuK5cDOC2fZe2jgD-jpV7jC_UEg/viewform"
                       class="all-btn format-preview-btn"
-                      >Заявка на участь<img loading="lazy" src="img/arrow-btn.svg" alt="" />
+                      ><span data-i18n="btn.register">Заявка на участь</span><img loading="lazy" src="img/arrow-btn.svg" alt="" />
                     </a>
                   </div>
                 </div>
@@ -550,14 +554,14 @@
                   </div>
                   <div class="format-preview-cont">
                     <h3 class="title-card">Amputee Rehab <span>Student</span></h3>
-                    <p class="format-preview-desc">
+                    <p class="format-preview-desc" data-i18n="whatsnew.student.desc">
                 Окремий день для студентів, інтернів і молодих науковців,
                 присвячений професійному розвитку та міжнародному
                 нетворкінгу.
               </p>
                     <div class="format-preview-audience">
-                      <span class="format-preview-audience-label">Для кого</span>
-                      <p>
+                      <span class="format-preview-audience-label" data-i18n="label.forwhom">Для кого</span>
+                      <p data-i18n="whatsnew.student.audience">
                         студенти, інтерни, аспіранти, молоді науковці,
                         викладачі та молоді спеціалісти.
                       </p>
@@ -566,7 +570,7 @@
                       target="_blank"
                       href="https://docs.google.com/forms/d/e/1FAIpQLSfmkJ9Ir89WsfO5TjE0fV7IHR7ZfBf4eZz28sxvrtMuZ_A7gw/viewform"
                       class="all-btn format-preview-btn"
-                      >Заявка на участь<img loading="lazy" src="img/arrow-btn.svg" alt="" />
+                      ><span data-i18n="btn.register">Заявка на участь</span><img loading="lazy" src="img/arrow-btn.svg" alt="" />
                     </a>
                   </div>
                 </div>
@@ -578,13 +582,13 @@
                   </div>
                   <div class="format-preview-cont">
                     <h3 class="title-card">Amputee Rehab <span>Expo</span></h3>
-                    <p class="format-preview-desc">
+                    <p class="format-preview-desc" data-i18n="whatsnew.expo.desc">
                 Масштабна виставка сучасних технологій, обладнання та
                 інноваційних рішень у сфері протезування й реабілітації.
               </p>
                     <div class="format-preview-audience">
-                      <span class="format-preview-audience-label">Для кого</span>
-                      <p>
+                      <span class="format-preview-audience-label" data-i18n="label.forwhom">Для кого</span>
+                      <p data-i18n="whatsnew.expo.audience">
                         окрема реєстрація передбачена для компаній,
                         виробників, технологічних партнерів, благодійних
                         і громадських організацій, які бажають
@@ -595,7 +599,7 @@
                       target="_blank"
                       href="https://forms.gle/EgymwcL6kUtxmu236"
                       class="all-btn format-preview-btn"
-                      >Заявка на участь<img loading="lazy" src="img/arrow-btn.svg" alt="" />
+                      ><span data-i18n="btn.register">Заявка на участь</span><img loading="lazy" src="img/arrow-btn.svg" alt="" />
                     </a>
                   </div>
                 </div>
@@ -614,34 +618,34 @@
       <div class="section-glow topics-glow" aria-hidden="true"></div>
       <div class="container">
         <div class="section-head-left">
-          <h2 class="title">
+          <h2 class="title" data-i18n="topics.heading">
             Напрями
             <br />
             <span class="nowrap section-title-accent">AMPUTEE REHAB <span class="accent-break">SUMMIT 2026</span></span>
           </h2>
-          <p class="section-subtitle">
+          <p class="section-subtitle" data-i18n="topics.subtitle">
             Програма Саміту охоплюватиме актуальні напрями сучасного
             протезування та реабілітації:
           </p>
         </div>
         <ul class="topics-grid">
-          <li>сучасне протезування верхніх і нижніх кінцівок</li>
-          <li>хірургія ампутацій</li>
-          <li>остеоінтеграція</li>
-          <li>фантомний та ампутаційний біль</li>
-          <li>фізична терапія</li>
-          <li>ерготерапія</li>
-          <li>медицина фізичної та реабілітаційної медицини</li>
-          <li>біомеханіка ходи</li>
-          <li>дитяче протезування</li>
-          <li>психологічний супровід</li>
-          <li>спортивна реабілітація</li>
-          <li>цифрові технології</li>
-          <li>штучний інтелект у реабілітації</li>
-          <li>міжнародні стандарти</li>
-          <li>клінічні кейси</li>
-          <li>наукові дослідження</li>
-          <li>інновації у сфері протезування</li>
+          <li data-i18n="topics.item1">сучасне протезування верхніх і нижніх кінцівок</li>
+          <li data-i18n="topics.item2">хірургія ампутацій</li>
+          <li data-i18n="topics.item3">остеоінтеграція</li>
+          <li data-i18n="topics.item4">фантомний та ампутаційний біль</li>
+          <li data-i18n="topics.item5">фізична терапія</li>
+          <li data-i18n="topics.item6">ерготерапія</li>
+          <li data-i18n="topics.item7">медицина фізичної та реабілітаційної медицини</li>
+          <li data-i18n="topics.item8">біомеханіка ходи</li>
+          <li data-i18n="topics.item9">дитяче протезування</li>
+          <li data-i18n="topics.item10">психологічний супровід</li>
+          <li data-i18n="topics.item11">спортивна реабілітація</li>
+          <li data-i18n="topics.item12">цифрові технології</li>
+          <li data-i18n="topics.item13">штучний інтелект у реабілітації</li>
+          <li data-i18n="topics.item14">міжнародні стандарти</li>
+          <li data-i18n="topics.item15">клінічні кейси</li>
+          <li data-i18n="topics.item16">наукові дослідження</li>
+          <li data-i18n="topics.item17">інновації у сфері протезування</li>
         </ul>
       </div>
     </div>
@@ -649,7 +653,7 @@
     <div id="themes" class="themes-block">
       <div class="container">
         <div class="section-head-left">
-          <h2 class="title">Основні теми</h2>
+          <h2 class="title" data-i18n="themes.heading">Основні теми</h2>
         </div>
         <div class="themes-grid">
           <div
@@ -659,9 +663,9 @@
             data-wow-offset="0"
           >
             <span class="theme-card-num">01</span>
-            <h3 class="theme-card-title">Протезування</h3>
+            <h3 class="theme-card-title" data-i18n="themes.t1.title">Протезування</h3>
             <ul class="theme-card-list">
-              <li>
+              <li data-i18n="themes.t1.li1">
                 Практичні майстер-класи від виробників: технології,
                 налаштування та огляд комплектуючих для протезування верхніх
                 і нижніх кінцівок.
@@ -675,20 +679,19 @@
             data-wow-offset="0"
           >
             <span class="theme-card-num">02</span>
-            <h3 class="theme-card-title"
-              >Хірургія та неврологія (управління болем та функцією)</h3
+            <h3 class="theme-card-title" data-i18n="themes.t2.title">Хірургія та неврологія (управління болем та функцією)</h3
             >
             <ul class="theme-card-list">
-              <li>
+              <li data-i18n="themes.t2.li1">
                 Хірургічні методи лікування та профілактики невроми (TMR —
                 Targeted Muscle Reinnervation).
               </li>
-              <li>
+              <li data-i18n="themes.t2.li2">
                 Мультидисциплінарний підхід в діагностиці та терапії в
                 реабілітації фантомного болю та відчуття у пацієнтів з
                 ампутаціями.
               </li>
-              <li>
+              <li data-i18n="themes.t2.li3">
                 Роль лімбічної системи у хронізації болю та
                 нейропластичність після ампутації.
               </li>
@@ -701,11 +704,10 @@
             data-wow-offset="0"
           >
             <span class="theme-card-num">03</span>
-            <h3 class="theme-card-title"
-              >Фізична та реабілітаційна медицина (ФРМ)</h3
+            <h3 class="theme-card-title" data-i18n="themes.t3.title">Фізична та реабілітаційна медицина (ФРМ)</h3
             >
             <ul class="theme-card-list">
-              <li>
+              <li data-i18n="themes.t3.li1">
                 <b>Прийняття рішень на основі даних:</b> використання
                 Міжнародної класифікації функціонування (МКФ) для
                 постановки цілей, зрозумілих усьому медичному персоналу та
@@ -721,14 +723,14 @@
             data-wow-offset="0"
           >
             <span class="theme-card-num">04</span>
-            <h3 class="theme-card-title">Фізична терапія</h3>
+            <h3 class="theme-card-title" data-i18n="themes.t4.title">Фізична терапія</h3>
             <ul class="theme-card-list">
-              <li>
+              <li data-i18n="themes.t4.li1">
                 Високоінтенсивне тренування ходи в програмі фізичної
                 реабілітації для пацієнтів з ампутаціями нижніх кінцівок.
                 Перспективи та виклики реабілітації.
               </li>
-              <li>
+              <li data-i18n="themes.t4.li2">
                 <b>Ерготерапія.</b> Адаптація житлового простору та
                 професійної діяльності під конкретні потреби пацієнта з
                 ампутацією.
@@ -742,19 +744,18 @@
             data-wow-offset="0"
           >
             <span class="theme-card-num">05</span>
-            <h3 class="theme-card-title"
-              >Психологія та превенція суїцидальних тенденцій</h3
+            <h3 class="theme-card-title" data-i18n="themes.t5.title">Психологія та превенція суїцидальних тенденцій</h3
             >
             <ul class="theme-card-list">
-              <li>
+              <li data-i18n="themes.t5.li1">
                 Етичне виявлення суїцидального ризику: алгоритми раннього
                 розпізнавання для непсихіатрів.
               </li>
-              <li>
+              <li data-i18n="themes.t5.li2">
                 Робота з «моральною травмою» та провина вцілілого як
                 чинники дестабілізації психіки військовослужбовця.
               </li>
-              <li>
+              <li data-i18n="themes.t5.li3">
                 Від фізичного відновлення та стійкої цілісності:
                 архітектура резильєнтності в повоєнний час.
               </li>
@@ -767,11 +768,10 @@
             data-wow-offset="0"
           >
             <span class="theme-card-num">06</span>
-            <h3 class="theme-card-title"
-              >Соціальні працівники та наставництво</h3
+            <h3 class="theme-card-title" data-i18n="themes.t6.title">Соціальні працівники та наставництво</h3
             >
             <ul class="theme-card-list">
-              <li>
+              <li data-i18n="themes.t6.li1">
                 Формування резильєнтності через участь у соціальних
                 ініціативах: «захист через дію».
               </li>
@@ -783,7 +783,7 @@
 
     <div id="speakers" class="speakers">
       <div class="container">
-        <h2 class="title">
+        <h2 class="title" data-i18n="speakers.heading">
           Спікери
           <br />
           <span class="nowrap section-title-accent">AMPUTEE REHAB <span class="accent-break">SUMMIT 2026</span></span>
@@ -800,9 +800,9 @@
                 data-wow-delay="0.2s"
                 data-wow-offset="0"
               >
-                <span class="label">Спікер</span>
+                <span class="label" data-i18n="label.speaker">Спікер</span>
                 <h3 class="name"> Yakov Gradinar (Україна/США) </h3>
-                <p>
+                <p data-i18n="speakers.yakov.bio">
                   Yakov Gradinar – українець, який переїхав до США у 2007 році
                   і наразі проживає у Міннеаполісі, штат Міннесота.
                   Співзасновник, сертифікований протезист-ортезист і головний
@@ -832,7 +832,7 @@
           <div class="speakers-card">
             <div class="flex">
               <div class="speakers-card-img">
-                <img loading="lazy" src="img/photo-4.png" alt="Anita Clerke" />
+                <img loading="lazy" src="img/photo-4.jpg" alt="Anita Clerke" />
               </div>
               <div
                 class="speakers-card-cont wow fadeInLeft"
@@ -840,9 +840,9 @@
                 data-wow-delay="0.2s"
                 data-wow-offset="0"
               >
-                <span class="label">Спікер</span>
+                <span class="label" data-i18n="label.speaker">Спікер</span>
                 <h3 class="name"> Anita Clerke (Австралія) </h3>
-                <p>
+                <p data-i18n="speakers.anita.bio">
                   Anita Clerke – акредитована ерготерапевтка та Hand Therapist
                   з Австралії, яка понад багато років працює у сфері
                   реабілітації верхньої кінцівки. Її професійна діяльність
@@ -876,9 +876,9 @@
                 data-wow-delay="0.2s"
                 data-wow-offset="0"
               >
-                <span class="label">Спікер</span>
+                <span class="label" data-i18n="label.speaker">Спікер</span>
                 <h3 class="name"> Wioletta Wyrwol (Німеччина) </h3>
-                <p>
+                <p data-i18n="speakers.wioletta.bio">
                   Wioletta Wyrwol – авторка, громадська діячка та
                   амбасадорка інклюзії. Після ампутації верхньої кінцівки
                   вона активно популяризує сучасне протезування, підтримку
@@ -912,9 +912,9 @@
                 data-wow-delay="0.2s"
                 data-wow-offset="0"
               >
-                <span class="label">Спікер</span>
+                <span class="label" data-i18n="label.speaker">Спікер</span>
                 <h3 class="name"> Dr. Ruud Wong Chung (Нідерланди) </h3>
-                <p>
+                <p data-i18n="speakers.ruud.bio">
                   Dr. Ruud Wong Chung – PhD, дослідник та експерт у сфері
                   медичної освіти з Vrije Universiteit Amsterdam. Останні
                   роки він активно працює над розвитком міжнародних освітніх
@@ -941,12 +941,12 @@
 
     <div id="program" class="program-block">
       <div class="container">
-        <h2 class="title">
+        <h2 class="title" data-i18n="program.heading">
           Програма
           <br />
           <span class="nowrap section-title-accent">AMPUTEE REHAB <span class="accent-break">SUMMIT 2026</span></span>
         </h2>
-        <span class="program-soon-note">Детальна програма — скоро буде</span>
+        <span class="program-soon-note" data-i18n="program.soon">Детальна програма — скоро буде</span>
 
         <div class="format-cards">
           <div
@@ -956,47 +956,47 @@
             data-wow-offset="0"
           >
             <div class="table-head">
-              <span class="format-card-date">3–4 жовтня</span>
+              <span class="format-card-date" data-i18n="date.oct34">3–4 жовтня</span>
               <h3 class="table-head-title">Amputee Rehab <span>Summit</span></h3>
             </div>
             <div class="table-row-content_wrap">
-              <p class="format-card-desc">
+              <p class="format-card-desc" data-i18n="program.summit.desc">
                 Дводенний саміт для лікарів, реабілітаційних команд і
                 фахівців, які працюють з людьми після ампутації.
               </p>
               <div class="format-card-cols">
                 <div class="format-card-col">
-                  <div class="format-card-col-title">У програмі:</div>
+                  <div class="format-card-col-title" data-i18n="program.col.inprogram">У програмі:</div>
                   <ul class="list-card">
-                    <li>доповіді міжнародних експертів;</li>
-                    <li>клінічні кейси;</li>
-                    <li>панельні дискусії;</li>
-                    <li>практичні воркшопи;</li>
-                    <li>
+                    <li data-i18n="program.summit.list1">доповіді міжнародних експертів;</li>
+                    <li data-i18n="program.summit.list2">клінічні кейси;</li>
+                    <li data-i18n="program.summit.list3">панельні дискусії;</li>
+                    <li data-i18n="program.summit.list4">практичні воркшопи;</li>
+                    <li data-i18n="program.summit.list5">
                       презентація сучасних підходів до протезування та
                       реабілітації;
                     </li>
-                    <li>
+                    <li data-i18n="program.summit.list6">
                       обговорення розвитку мультидисциплінарної допомоги.
                     </li>
                   </ul>
                 </div>
                 <div class="format-card-col">
-                  <div class="format-card-col-title">
+                  <div class="format-card-col-title" data-i18n="program.col.whocan">
                     Хто може взяти участь:
                   </div>
                   <ul class="list-card">
-                    <li>лікарі;</li>
-                    <li>протезисти-ортезисти;</li>
-                    <li>фізичні терапевти;</li>
-                    <li>ерготерапевти;</li>
-                    <li>лікарі ФРМ;</li>
-                    <li>психологи;</li>
-                    <li>медичні сестри;</li>
-                    <li>представники протезних центрів;</li>
-                    <li>представники державних установ;</li>
-                    <li>міжнародні організації;</li>
-                    <li>інші фахівці сфери реабілітації.</li>
+                    <li data-i18n="program.summit.who1">лікарі;</li>
+                    <li data-i18n="program.summit.who2">протезисти-ортезисти;</li>
+                    <li data-i18n="program.summit.who3">фізичні терапевти;</li>
+                    <li data-i18n="program.summit.who4">ерготерапевти;</li>
+                    <li data-i18n="program.summit.who5">лікарі ФРМ;</li>
+                    <li data-i18n="program.summit.who6">психологи;</li>
+                    <li data-i18n="program.summit.who7">медичні сестри;</li>
+                    <li data-i18n="program.summit.who8">представники протезних центрів;</li>
+                    <li data-i18n="program.summit.who9">представники державних установ;</li>
+                    <li data-i18n="program.summit.who10">міжнародні організації;</li>
+                    <li data-i18n="program.summit.who11">інші фахівці сфери реабілітації.</li>
                   </ul>
                 </div>
               </div>
@@ -1010,11 +1010,11 @@
             data-wow-offset="0"
           >
             <div class="table-head">
-              <span class="format-card-date">5 жовтня</span>
+              <span class="format-card-date" data-i18n="date.oct5">5 жовтня</span>
               <h3 class="table-head-title">Amputee Rehab <span>Student</span></h3>
             </div>
             <div class="table-row-content_wrap">
-              <p class="format-card-desc">
+              <p class="format-card-desc" data-i18n="program.student.desc">
                 Окрема освітня подія, що буде присвячена студентській
                 науковій діяльності, академічній мобільності,
                 професійному розвитку та міжнародному професійному
@@ -1022,33 +1022,33 @@
               </p>
               <div class="format-card-cols">
                 <div class="format-card-col">
-                  <div class="format-card-col-title">У програмі:</div>
+                  <div class="format-card-col-title" data-i18n="program.col.inprogram">У програмі:</div>
                   <ul class="list-card">
-                    <li>навчання;</li>
-                    <li>наукові доповіді;</li>
-                    <li>постерні презентації;</li>
-                    <li>міжнародний Quiz Challenge;</li>
-                    <li>
+                    <li data-i18n="program.student.list1">навчання;</li>
+                    <li data-i18n="program.student.list2">наукові доповіді;</li>
+                    <li data-i18n="program.student.list3">постерні презентації;</li>
+                    <li data-i18n="program.student.list4">міжнародний Quiz Challenge;</li>
+                    <li data-i18n="program.student.list5">
                       TED-виступи запрошених експертів та стейкхолдерів;
                     </li>
-                    <li>знайомство з міжнародними партнерами;</li>
-                    <li>публікація тез у збірнику саміту.</li>
+                    <li data-i18n="program.student.list6">знайомство з міжнародними партнерами;</li>
+                    <li data-i18n="program.student.list7">публікація тез у збірнику саміту.</li>
                   </ul>
                 </div>
                 <div class="format-card-col">
-                  <div class="format-card-col-title">
+                  <div class="format-card-col-title" data-i18n="program.col.invited">
                     До участі запрошуються:
                   </div>
                   <ul class="list-card">
-                    <li>студенти;</li>
-                    <li>інтерни;</li>
-                    <li>аспіранти;</li>
-                    <li>молоді науковці;</li>
-                    <li>молоді спеціалісти.</li>
+                    <li data-i18n="program.student.who1">студенти;</li>
+                    <li data-i18n="program.student.who2">інтерни;</li>
+                    <li data-i18n="program.student.who3">аспіранти;</li>
+                    <li data-i18n="program.student.who4">молоді науковці;</li>
+                    <li data-i18n="program.student.who5">молоді спеціалісти.</li>
                   </ul>
                 </div>
               </div>
-              <p class="format-card-note">
+              <p class="format-card-note" data-i18n="program.student.note">
                 Під час реєстрації учасники зможуть обрати формат своєї
                 участі: усна доповідь, постерна презентація, Quiz Challenge
                 або участь як слухач.
@@ -1063,27 +1063,27 @@
             data-wow-offset="0"
           >
             <div class="table-head">
-              <span class="format-card-date">3–5 жовтня</span>
+              <span class="format-card-date" data-i18n="date.oct35">3–5 жовтня</span>
               <h3 class="table-head-title">Amputee Rehab <span>Expo</span></h3>
             </div>
             <div class="table-row-content_wrap">
-              <p class="format-card-desc">
+              <p class="format-card-desc" data-i18n="program.expo.desc">
                 Впродовж трьох днів працюватиме спеціалізована
                 виставкова зона, де будуть представлені сучасні рішення для
                 протезування та реабілітації.
               </p>
               <div class="format-card-col">
-                <div class="format-card-col-title">Серед учасників виставки:</div>
+                <div class="format-card-col-title" data-i18n="program.col.among">Серед учасників виставки:</div>
                 <ul class="list-card">
-                  <li>українські та міжнародні протезно-ортопедичні виробники;</li>
-                  <li>виробники реабілітаційного обладнання;</li>
-                  <li>виробники ДЗР;</li>
-                  <li>протезні центри;</li>
-                  <li>реабілітаційні центри;</li>
-                  <li>благодійні та гуманітарні організації.</li>
+                  <li data-i18n="program.expo.list1">українські та міжнародні протезно-ортопедичні виробники;</li>
+                  <li data-i18n="program.expo.list2">виробники реабілітаційного обладнання;</li>
+                  <li data-i18n="program.expo.list3">виробники ДЗР;</li>
+                  <li data-i18n="program.expo.list4">протезні центри;</li>
+                  <li data-i18n="program.expo.list5">реабілітаційні центри;</li>
+                  <li data-i18n="program.expo.list6">благодійні та гуманітарні організації.</li>
                 </ul>
               </div>
-              <p class="format-card-note">
+              <p class="format-card-note" data-i18n="program.expo.note">
                 Відвідати Expo зможуть усі, хто прагне дізнатися більше
                 про сферу протезування та реабілітації.
               </p>
@@ -1097,47 +1097,47 @@
               <div class="swiper-slide">
                 <div class="format-card">
             <div class="table-head">
-              <span class="format-card-date">3–4 жовтня</span>
+              <span class="format-card-date" data-i18n="date.oct34">3–4 жовтня</span>
               <h3 class="table-head-title">Amputee Rehab <span>Summit</span></h3>
             </div>
             <div class="table-row-content_wrap">
-              <p class="format-card-desc">
+              <p class="format-card-desc" data-i18n="program.summit.desc">
                 Дводенний саміт для лікарів, реабілітаційних команд і
                 фахівців, які працюють з людьми після ампутації.
               </p>
               <div class="format-card-cols">
                 <div class="format-card-col">
-                  <div class="format-card-col-title">У програмі:</div>
+                  <div class="format-card-col-title" data-i18n="program.col.inprogram">У програмі:</div>
                   <ul class="list-card">
-                    <li>доповіді міжнародних експертів;</li>
-                    <li>клінічні кейси;</li>
-                    <li>панельні дискусії;</li>
-                    <li>практичні воркшопи;</li>
-                    <li>
+                    <li data-i18n="program.summit.list1">доповіді міжнародних експертів;</li>
+                    <li data-i18n="program.summit.list2">клінічні кейси;</li>
+                    <li data-i18n="program.summit.list3">панельні дискусії;</li>
+                    <li data-i18n="program.summit.list4">практичні воркшопи;</li>
+                    <li data-i18n="program.summit.list5">
                       презентація сучасних підходів до протезування та
                       реабілітації;
                     </li>
-                    <li>
+                    <li data-i18n="program.summit.list6">
                       обговорення розвитку мультидисциплінарної допомоги.
                     </li>
                   </ul>
                 </div>
                 <div class="format-card-col">
-                  <div class="format-card-col-title">
+                  <div class="format-card-col-title" data-i18n="program.col.whocan">
                     Хто може взяти участь:
                   </div>
                   <ul class="list-card">
-                    <li>лікарі;</li>
-                    <li>протезисти-ортезисти;</li>
-                    <li>фізичні терапевти;</li>
-                    <li>ерготерапевти;</li>
-                    <li>лікарі ФРМ;</li>
-                    <li>психологи;</li>
-                    <li>медичні сестри;</li>
-                    <li>представники протезних центрів;</li>
-                    <li>представники державних установ;</li>
-                    <li>міжнародні організації;</li>
-                    <li>інші фахівці сфери реабілітації.</li>
+                    <li data-i18n="program.summit.who1">лікарі;</li>
+                    <li data-i18n="program.summit.who2">протезисти-ортезисти;</li>
+                    <li data-i18n="program.summit.who3">фізичні терапевти;</li>
+                    <li data-i18n="program.summit.who4">ерготерапевти;</li>
+                    <li data-i18n="program.summit.who5">лікарі ФРМ;</li>
+                    <li data-i18n="program.summit.who6">психологи;</li>
+                    <li data-i18n="program.summit.who7">медичні сестри;</li>
+                    <li data-i18n="program.summit.who8">представники протезних центрів;</li>
+                    <li data-i18n="program.summit.who9">представники державних установ;</li>
+                    <li data-i18n="program.summit.who10">міжнародні організації;</li>
+                    <li data-i18n="program.summit.who11">інші фахівці сфери реабілітації.</li>
                   </ul>
                 </div>
               </div>
@@ -1148,11 +1148,11 @@
               <div class="swiper-slide">
                 <div class="format-card">
             <div class="table-head">
-              <span class="format-card-date">5 жовтня</span>
+              <span class="format-card-date" data-i18n="date.oct5">5 жовтня</span>
               <h3 class="table-head-title">Amputee Rehab <span>Student</span></h3>
             </div>
             <div class="table-row-content_wrap">
-              <p class="format-card-desc">
+              <p class="format-card-desc" data-i18n="program.student.desc">
                 Окрема освітня подія, що буде присвячена студентській
                 науковій діяльності, академічній мобільності,
                 професійному розвитку та міжнародному професійному
@@ -1160,33 +1160,33 @@
               </p>
               <div class="format-card-cols">
                 <div class="format-card-col">
-                  <div class="format-card-col-title">У програмі:</div>
+                  <div class="format-card-col-title" data-i18n="program.col.inprogram">У програмі:</div>
                   <ul class="list-card">
-                    <li>навчання;</li>
-                    <li>наукові доповіді;</li>
-                    <li>постерні презентації;</li>
-                    <li>міжнародний Quiz Challenge;</li>
-                    <li>
+                    <li data-i18n="program.student.list1">навчання;</li>
+                    <li data-i18n="program.student.list2">наукові доповіді;</li>
+                    <li data-i18n="program.student.list3">постерні презентації;</li>
+                    <li data-i18n="program.student.list4">міжнародний Quiz Challenge;</li>
+                    <li data-i18n="program.student.list5">
                       TED-виступи запрошених експертів та стейкхолдерів;
                     </li>
-                    <li>знайомство з міжнародними партнерами;</li>
-                    <li>публікація тез у збірнику саміту.</li>
+                    <li data-i18n="program.student.list6">знайомство з міжнародними партнерами;</li>
+                    <li data-i18n="program.student.list7">публікація тез у збірнику саміту.</li>
                   </ul>
                 </div>
                 <div class="format-card-col">
-                  <div class="format-card-col-title">
+                  <div class="format-card-col-title" data-i18n="program.col.invited">
                     До участі запрошуються:
                   </div>
                   <ul class="list-card">
-                    <li>студенти;</li>
-                    <li>інтерни;</li>
-                    <li>аспіранти;</li>
-                    <li>молоді науковці;</li>
-                    <li>молоді спеціалісти.</li>
+                    <li data-i18n="program.student.who1">студенти;</li>
+                    <li data-i18n="program.student.who2">інтерни;</li>
+                    <li data-i18n="program.student.who3">аспіранти;</li>
+                    <li data-i18n="program.student.who4">молоді науковці;</li>
+                    <li data-i18n="program.student.who5">молоді спеціалісти.</li>
                   </ul>
                 </div>
               </div>
-              <p class="format-card-note">
+              <p class="format-card-note" data-i18n="program.student.note">
                 Під час реєстрації учасники зможуть обрати формат своєї
                 участі: усна доповідь, постерна презентація, Quiz Challenge
                 або участь як слухач.
@@ -1198,27 +1198,27 @@
               <div class="swiper-slide">
                 <div class="format-card">
             <div class="table-head">
-              <span class="format-card-date">3–5 жовтня</span>
+              <span class="format-card-date" data-i18n="date.oct35">3–5 жовтня</span>
               <h3 class="table-head-title">Amputee Rehab <span>Expo</span></h3>
             </div>
             <div class="table-row-content_wrap">
-              <p class="format-card-desc">
+              <p class="format-card-desc" data-i18n="program.expo.desc">
                 Впродовж трьох днів працюватиме спеціалізована
                 виставкова зона, де будуть представлені сучасні рішення для
                 протезування та реабілітації.
               </p>
               <div class="format-card-col">
-                <div class="format-card-col-title">Серед учасників виставки:</div>
+                <div class="format-card-col-title" data-i18n="program.col.among">Серед учасників виставки:</div>
                 <ul class="list-card">
-                  <li>українські та міжнародні протезно-ортопедичні виробники;</li>
-                  <li>виробники реабілітаційного обладнання;</li>
-                  <li>виробники ДЗР;</li>
-                  <li>протезні центри;</li>
-                  <li>реабілітаційні центри;</li>
-                  <li>благодійні та гуманітарні організації.</li>
+                  <li data-i18n="program.expo.list1">українські та міжнародні протезно-ортопедичні виробники;</li>
+                  <li data-i18n="program.expo.list2">виробники реабілітаційного обладнання;</li>
+                  <li data-i18n="program.expo.list3">виробники ДЗР;</li>
+                  <li data-i18n="program.expo.list4">протезні центри;</li>
+                  <li data-i18n="program.expo.list5">реабілітаційні центри;</li>
+                  <li data-i18n="program.expo.list6">благодійні та гуманітарні організації.</li>
                 </ul>
               </div>
-              <p class="format-card-note">
+              <p class="format-card-note" data-i18n="program.expo.note">
                 Відвідати Expo зможуть усі, хто прагне дізнатися більше
                 про сферу протезування та реабілітації.
               </p>
@@ -1249,8 +1249,8 @@
           <div class="schedule-panel active" data-panel="summit">
             <div class="schedule-table">
               <div class="schedule-date-tabs">
-                <button type="button" class="schedule-date-tab active" data-date-target="summit-d1">3 жовтня</button>
-                <button type="button" class="schedule-date-tab" data-date-target="summit-d2">4 жовтня</button>
+                <button type="button" class="schedule-date-tab active" data-date-target="summit-d1" data-i18n="date.oct3">3 жовтня</button>
+                <button type="button" class="schedule-date-tab" data-date-target="summit-d2" data-i18n="date.oct4">4 жовтня</button>
               </div>
               <div class="schedule-date-panel active" data-date-panel="summit-d1">
                 <div class="schedule-table-row">
@@ -1270,8 +1270,7 @@
                 </div>
                 <div class="schedule-table-note">
                   <img loading="lazy" src="img/calender.svg" alt="" />
-                  <span
-                    >Детальний погодинний розклад доповідей та воркшопів
+                  <span data-i18n="schedule.note">Детальний погодинний розклад доповідей та воркшопів
                     з'явиться тут найближчим часом.</span
                   >
                 </div>
@@ -1294,8 +1293,7 @@
                 </div>
                 <div class="schedule-table-note">
                   <img loading="lazy" src="img/calender.svg" alt="" />
-                  <span
-                    >Детальний погодинний розклад доповідей та воркшопів
+                  <span data-i18n="schedule.note">Детальний погодинний розклад доповідей та воркшопів
                     з'явиться тут найближчим часом.</span
                   >
                 </div>
@@ -1306,7 +1304,7 @@
           <div class="schedule-panel" data-panel="student">
             <div class="schedule-table">
               <div class="schedule-date-tabs">
-                <button type="button" class="schedule-date-tab active" data-date-target="student-d1">5 жовтня</button>
+                <button type="button" class="schedule-date-tab active" data-date-target="student-d1" data-i18n="date.oct5">5 жовтня</button>
               </div>
               <div class="schedule-date-panel active" data-date-panel="student-d1">
                 <div class="schedule-table-row">
@@ -1326,8 +1324,7 @@
                 </div>
                 <div class="schedule-table-note">
                   <img loading="lazy" src="img/calender.svg" alt="" />
-                  <span
-                    >Детальний погодинний розклад доповідей та воркшопів
+                  <span data-i18n="schedule.note">Детальний погодинний розклад доповідей та воркшопів
                     з'явиться тут найближчим часом.</span
                   >
                 </div>
@@ -1338,9 +1335,9 @@
           <div class="schedule-panel" data-panel="expo">
             <div class="schedule-table">
               <div class="schedule-date-tabs">
-                <button type="button" class="schedule-date-tab active" data-date-target="expo-d1">3 жовтня</button>
-                <button type="button" class="schedule-date-tab" data-date-target="expo-d2">4 жовтня</button>
-                <button type="button" class="schedule-date-tab" data-date-target="expo-d3">5 жовтня</button>
+                <button type="button" class="schedule-date-tab active" data-date-target="expo-d1" data-i18n="date.oct3">3 жовтня</button>
+                <button type="button" class="schedule-date-tab" data-date-target="expo-d2" data-i18n="date.oct4">4 жовтня</button>
+                <button type="button" class="schedule-date-tab" data-date-target="expo-d3" data-i18n="date.oct5">5 жовтня</button>
               </div>
               <div class="schedule-date-panel active" data-date-panel="expo-d1">
                 <div class="schedule-table-row">
@@ -1360,8 +1357,7 @@
                 </div>
                 <div class="schedule-table-note">
                   <img loading="lazy" src="img/calender.svg" alt="" />
-                  <span
-                    >Детальний погодинний розклад доповідей та воркшопів
+                  <span data-i18n="schedule.note">Детальний погодинний розклад доповідей та воркшопів
                     з'явиться тут найближчим часом.</span
                   >
                 </div>
@@ -1384,8 +1380,7 @@
                 </div>
                 <div class="schedule-table-note">
                   <img loading="lazy" src="img/calender.svg" alt="" />
-                  <span
-                    >Детальний погодинний розклад доповідей та воркшопів
+                  <span data-i18n="schedule.note">Детальний погодинний розклад доповідей та воркшопів
                     з'явиться тут найближчим часом.</span
                   >
                 </div>
@@ -1408,8 +1403,7 @@
                 </div>
                 <div class="schedule-table-note">
                   <img loading="lazy" src="img/calender.svg" alt="" />
-                  <span
-                    >Детальний погодинний розклад доповідей та воркшопів
+                  <span data-i18n="schedule.note">Детальний погодинний розклад доповідей та воркшопів
                     з'явиться тут найближчим часом.</span
                   >
                 </div>
@@ -1431,10 +1425,10 @@
             data-wow-offset="0"
           >
             <div class="request-to-partner_main-cont-block">
-              <h2 class="name">
+              <h2 class="name" data-i18n="reqpartner.heading">
                 Участь для організацій <span>в AMPUTEE REHAB EXPO 2026</span>
               </h2>
-              <p>
+              <p data-i18n="reqpartner.text">
                 Amputee Rehab Expo 2026 — перша масштабна виставка інновацій
                 й актуальних технологій у сфері протезування та
                 реабілітації, реалізована як окремий проєкт у межах
@@ -1449,7 +1443,7 @@
               target="_blank"
               href="https://docs.google.com/forms/d/e/1FAIpQLScnKRUZda9pEg8aFrRGaJg-36t9g9RTlHjfgajqjOECZYzTlQ/viewform?usp=header"
               class="all-btn"
-              >Заявка на участь <img loading="lazy" src="./img/arrow-btn.svg" alt=""
+              ><span data-i18n="btn.register">Заявка на участь</span> <img loading="lazy" src="./img/arrow-btn.svg" alt=""
             /></a>
           </div>
           <div
@@ -1459,11 +1453,11 @@
             data-wow-offset="0"
           >
             <div class="mob-block">
-              <div class="name">
+              <div class="name" data-i18n="reqpartner.heading">
                 Участь для організацій <span>в AMPUTEE REHAB EXPO 2026</span>
               </div>
             </div>
-            <img loading="lazy" src="./img/DSC00685.jpeg" alt="Стенд партнерів Amputee Rehab Summit" />
+            <img loading="lazy" src="./img/DSC00685.jpeg" alt="Стенд партнерів Amputee Rehab Summit" data-i18n-alt-en="Partner booth at Amputee Rehab Summit" />
           </div>
         </div>
       </div>
@@ -1472,7 +1466,7 @@
     <div class="expo-location">
       <div class="container">
         <div class="section-head-left">
-          <h2 class="title">План розміщення локацій учасників виставки</h2>
+          <h2 class="title" data-i18n="expoloc.heading">План розміщення локацій учасників виставки</h2>
         </div>
         <div class="expo-location-photos">
           <div
@@ -1481,7 +1475,7 @@
             data-wow-delay="0.1s"
             data-wow-offset="0"
           >
-            <img loading="lazy" src="./img/expo-location-plan.png" alt="План розміщення локацій" />
+            <img loading="lazy" src="./img/expo-location-plan.png" alt="План розміщення локацій" data-i18n-alt-en="Location plan" />
           </div>
           <div
             class="expo-location-photo wow fadeInUp"
@@ -1489,7 +1483,7 @@
             data-wow-delay="0.2s"
             data-wow-offset="0"
           >
-            <img loading="lazy" src="./img/expo-venue.jpg" alt="Простір у Парковому" />
+            <img loading="lazy" src="./img/expo-venue.jpg" alt="Простір у Парковому" data-i18n-alt-en="Space at Parkovyi venue" />
           </div>
         </div>
 
@@ -1502,9 +1496,8 @@
           >
             <span class="expo-zone-name">Зона A</span>
             <span class="expo-zone-price">150 000 грн</span>
-            <span class="expo-zone-size">Місце на виставковій зоні (6 м²)</span>
-            <span class="expo-zone-note"
-              >*Примітка: максимальна висота локацій A-07 – A-10 становить
+            <span class="expo-zone-size" data-i18n="expoloc.zonesize">Місце на виставковій зоні (6 м²)</span>
+            <span class="expo-zone-note" data-i18n="expoloc.zoneA.note">*Примітка: максимальна висота локацій A-07 – A-10 становить
               2,6 м.</span
             >
           </div>
@@ -1516,9 +1509,8 @@
           >
             <span class="expo-zone-name">Зона B</span>
             <span class="expo-zone-price">110 000 грн</span>
-            <span class="expo-zone-size">Місце на виставковій зоні (6 м²)</span>
-            <span class="expo-zone-note"
-              >*Примітка: максимальна висота локацій B-22 та B-23 становить
+            <span class="expo-zone-size" data-i18n="expoloc.zonesize">Місце на виставковій зоні (6 м²)</span>
+            <span class="expo-zone-note" data-i18n="expoloc.zoneB.note">*Примітка: максимальна висота локацій B-22 та B-23 становить
               2,6 м.</span
             >
           </div>
@@ -1530,17 +1522,15 @@
           >
             <span class="expo-zone-name">Зона D</span>
             <span class="expo-zone-price">80 000 грн</span>
-            <span class="expo-zone-size">Місце на виставковій зоні (6 м²)</span>
-            <span class="expo-zone-note"
-              >*Примітка: максимальна висота локацій D-01 – D-27 становить
+            <span class="expo-zone-size" data-i18n="expoloc.zonesize">Місце на виставковій зоні (6 м²)</span>
+            <span class="expo-zone-note" data-i18n="expoloc.zoneD.note">*Примітка: максимальна висота локацій D-01 – D-27 становить
               2,6 м.</span
             >
           </div>
         </div>
 
         <div class="expo-options">
-          <span class="expo-options-title"
-            >Додаткові можливості презентації свого бренду для
+          <span class="expo-options-title" data-i18n="expoloc.options.title">Додаткові можливості презентації свого бренду для
             учасників:</span
           >
           <div class="expo-options-grid">
@@ -1550,10 +1540,9 @@
               data-wow-delay="0.1s"
               data-wow-offset="0"
             >
-              <span class="expo-option-name"
-                >Проведення воркшопу у зонах С1 та С2</span
+              <span class="expo-option-name" data-i18n="expoloc.option1.name">Проведення воркшопу у зонах С1 та С2</span
               >
-              <span class="expo-option-detail">Тривалість – 45 хвилин.</span>
+              <span class="expo-option-detail" data-i18n="expoloc.option1.detail">Тривалість – 45 хвилин.</span>
               <span class="expo-option-price">10 000 грн</span>
             </div>
             <div
@@ -1562,15 +1551,12 @@
               data-wow-delay="0.2s"
               data-wow-offset="0"
             >
-              <span class="expo-option-name"
-                >Трансляції проморолика учасника виставки на екрані в зоні
+              <span class="expo-option-name" data-i18n="expoloc.option2.name">Трансляції проморолика учасника виставки на екрані в зоні
                 С1</span
               >
-              <span class="expo-option-detail"
-                >Тривалість – до 15 секунд.</span
+              <span class="expo-option-detail" data-i18n="expoloc.option2.detail1">Тривалість – до 15 секунд.</span
               >
-              <span class="expo-option-detail"
-                >Періодичність – під час кожної перерви між
+              <span class="expo-option-detail" data-i18n="expoloc.option2.detail2">Періодичність – під час кожної перерви між
                 воркшопами.</span
               >
               <span class="expo-option-price">20 000 грн</span>
@@ -1578,7 +1564,7 @@
           </div>
         </div>
 
-        <p class="expo-custom-note">
+        <p class="expo-custom-note" data-i18n="expoloc.customnote">
           Якщо ви бажаєте розглянути кастомне розміщення локації у
           виставковому просторі, вкажіть, будь ласка, про це під час
           подання заявки.
@@ -1589,7 +1575,7 @@
         <a
           target="_blank"
           href="https://miro.com/app/live-embed/uXjVH8c2Dmk=/?embedMode=view_only_without_ui&moveToViewport=-690%2C-645%2C1067%2C786&embedId=551841423373"
-          class="all-btn expo-miro-btn"
+          class="all-btn expo-miro-btn" data-i18n="expoloc.mirobtn"
           >Актуальний стан бронювання локацій
           <img loading="lazy" src="./img/arrow-btn.svg" alt=""
         /></a>
@@ -1607,7 +1593,7 @@
           >
             <picture>
               <source media="(min-width:992px)" srcset="./img/Car-2.png" />
-              <img loading="lazy" src="./img/Car.png" alt="Пікап для Сил оборони України" />
+              <img loading="lazy" src="./img/Car.png" alt="Пікап для Сил оборони України" data-i18n-alt-en="Pickup truck for the Defense Forces of Ukraine" />
             </picture>
           </div>
           <div
@@ -1616,11 +1602,11 @@
             data-wow-delay="0.2s"
             data-wow-offset="0"
           >
-            <span class="expo-fundraiser-badge">ПІДТРИМАЄМО РАЗОМ</span>
-            <h2 class="expo-fundraiser-title">
+            <span class="expo-fundraiser-badge" data-i18n="fund.badge">ПІДТРИМАЄМО РАЗОМ</span>
+            <h2 class="expo-fundraiser-title" data-i18n="fund.title">
               Збір для Сил оборони України
             </h2>
-            <p class="expo-fundraiser-text">
+            <p class="expo-fundraiser-text" data-i18n="fund.text">
               Цьогоріч у межах четвертого Amputee Rehab Summit ініційовано
               збір коштів на придбання евакуаційного транспорту для Сил
               оборони України.
@@ -1638,7 +1624,7 @@
             <a
               target="_blank"
               href="https://next.privat24.ua/env/donate/5f673a86"
-              class="all-btn expo-fundraiser-btn"
+              class="all-btn expo-fundraiser-btn" data-i18n="fund.btn"
               >Підтримати збір <img loading="lazy" src="./img/arrow-btn.svg" alt=""
             /></a>
           </div>
@@ -1663,15 +1649,15 @@
               media="(min-width:399px)"
               srcset="img/promo-bottom-mob3.png"
             />
-            <img loading="lazy" src="img/promo-bottom-mob.png" alt="Зустріч з американським військовим SEBASTIAN" />
+            <img loading="lazy" src="img/promo-bottom-mob.png" alt="Зустріч з американським військовим SEBASTIAN" data-i18n-alt-en="Meeting with American veteran SEBASTIAN" />
           </picture>
         </div>
         <div class="promo-cont">
           <div class="promo-cont-wrap">
-            <h2 class="title">
+            <h2 class="title" data-i18n="promobottom.heading">
               Зустріч з американським військовим <span>SEBASTIAN</span>
             </h2>
-            <p>
+            <p data-i18n="promobottom.text">
               Спеціальна зустріч в рамках Amputee Rehab Summit, організована для
               українських військових, які втратили верхні кінцівки, з
               американським військовим Sebastian
@@ -1683,7 +1669,7 @@
                   class="all-btn"
                   href="https://docs.google.com/forms/d/e/1FAIpQLScnLUqCEAs7Lqb5yWDxeU8WJK_TWk4iduJ9SzsabtARqvr_Gg/viewform?usp=header"
                 >
-                  Заявка на участь
+                  <span data-i18n="btn.register">Заявка на участь</span>
                   <img loading="lazy" src="img/arrow-btn.svg" alt="" />
                 </a>
               </div>
@@ -1692,25 +1678,25 @@
               <div class="flex">
                 <div class="promo-info-item">
                   <img loading="lazy" src="img/calender.svg" alt="" />
-                  <span>18 Листопада</span>
+                  <span data-i18n="promobottom.date">18 Листопада</span>
                 </div>
                 <div class="promo-info-item">
                   <img loading="lazy" src="img/time.svg" alt="" />
-                  <span
+                  <span data-i18n="promobottom.time"
                     >9:00-14:00 <br />
                     (Реєстрація з 8:00)</span
                   >
                 </div>
               </div>
             </div>
-            <p>Зустріч буде проходити в окремому залі</p>
+            <p data-i18n="promobottom.final">Зустріч буде проходити в окремому залі</p>
           </div>
         </div>
       </div>
     </div>
     <div class="partners-block">
       <div class="container">
-        <h2 class="title"> Організатори </h2>
+        <h2 class="title" data-i18n="orgs.organizers"> Організатори </h2>
         <div class="partners-wrap">
           <div class="flex">
              <a
@@ -1741,7 +1727,7 @@
     <div class="partners-block">
       <div class="section-glow bottom-glow" aria-hidden="true"></div>
       <div class="container">
-        <h2 class="title"> Генеральний донор </h2>
+        <h2 class="title" data-i18n="orgs.donor"> Генеральний донор </h2>
         <div class="partners-wrap">
           <div class="flex">
             <a
@@ -1767,11 +1753,11 @@
             <a
               href="#whats-new"
               class="all-btn"
-              >Заявка на участь</a
+              ><span data-i18n="btn.register">Заявка на участь</span></a
             >
           </div>
           <div class="footer-item">
-            <span class="name">Контакти</span>
+            <span class="name" data-i18n="footer.contacts">Контакти</span>
             <a href="mailto:amputeerehabsummit@protezfoundation.com"
               >amputeerehabsummit@protezfoundation.com</a
             >
@@ -1786,7 +1772,7 @@
             <a
               href="#whats-new"
               class="all-btn"
-              >Заявка на участь</a
+              ><span data-i18n="btn.register">Заявка на участь</span></a
             >
           </div>
         </div>
@@ -1835,13 +1821,14 @@
     </footer>
     <div id="scroll-to-top">
       <div class="btn">
-        <img loading="lazy" src="img/to-top.svg" alt="Прогорнути вгору" />
+        <img loading="lazy" src="img/to-top.svg" alt="Прогорнути вгору" data-i18n-alt-en="Scroll to top" />
       </div>
     </div>
 
-    <script src="js/jquery.min.js?v=20260722"></script>
-    <script src="libs/swiper-slider/swiper-bundle.min.js?v=20260722"></script>
-    <script src="js/wow.min.js?v=20260722"></script>
-    <script src="js/main.js?v=20260722"></script>
+    <script src="js/jquery.min.js?v=20260729"></script>
+    <script src="libs/swiper-slider/swiper-bundle.min.js?v=20260729"></script>
+    <script src="js/wow.min.js?v=20260729"></script>
+    <script src="js/main.js?v=20260729"></script>
+    <script src="js/i18n.js?v=20260729"></script>
   </body>
 </html>
